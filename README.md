@@ -41,8 +41,14 @@ Afin d'évaluer plus précisément vos compétences, vous utiliserez la stack su
 - Backend : Java 8+ et Spring Boot 1.5+ (les deux ensemble)
 - Frontend : Angular 4+, React 16+ ou VueJS 2+ (un seul des trois)
 
-Nous évaluerons la qualité de l'algorithme (complexité, lisibilité, efficacité) mais aussi l'implémentation de sa résolution (attention aux tests !)
-Afin d'exploiter ce service, nous souhaitons pouvoir exploiter la solution sous forme d'une API Rest. Si nous tenons à pouvoir trier les cartons, tout autre service qui vous semble pertinent peut être ajouté à la solution.
-Enfin, afin de faciliter l'usage de l'application d'un point de vue interne, une IHM doit être mise en place. Pour rester moderne, l'IHM devra être réalisée avec Angular (version 4 ou plus), React (version 16 ou plus) ou VueJS (version 2 ou plus).
+La solution proposée sera évaluée selon trois critères successifs :
 
-Attention à ne pas brûler les étapes, une solution montée avec SpringBoot et Angular n'a aucune valeur si les cartons ne sont pas triés convenablement ou que la solution n'est pas utilisable car trop complexe à exploiter.
+1. La résolution de l'algorithme - en tenant compte de la qualité du code (complexité, lisibilité, efficacité) mais aussi de sa robustesse (attention aux tests, à la documentation, ...)
+
+2. Afin d'exploiter efficacement ce service, une API Rest doit être mise en place (s'appuyer sur spring boot). Si le service principal est le rangement des articles dans des boites, n'hésitez pas à ajouter d'autres services qui vous sembleraient pertinents.
+
+3. Enfin, la mise en place d'une IHM est souhaité pour traiter efficacement ce rangement par des individus non techniques. Réalisez une interface avec un framework JS (Angular, React ou Vue) répondant à ce besoin.
+
+Attention à bien respecter l'ordre, développer une IHM si l'API Rest ne fonctionne pas est inutile. De même, réaliser l'API Rest si l'algorithme ne résoud pas bien le problème ne sert à rien. Si vous ne vous sentez pas en mesure de réaliser l'étape 2 ou 3 dans un laps de temps suffisant, concentrez vos efforts sur la ou les étapes que vous pouvez atteindre. Un code plus réduit mais de bonne qualité sera toujours mieux considéré qu'un code plus ample mais incorrect, invalide ou dur à relire.
+
+Pensez également bien à tester votre code (et à nous montrer que vous l'avez testé) ! Un code dont on ne peut garantir la qualité est un code inutile car peu ou pas fiable.
